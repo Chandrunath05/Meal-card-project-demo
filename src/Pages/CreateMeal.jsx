@@ -2,7 +2,7 @@
 
 export const CreateMeal = () => {
   return (
-    <div>CreateMeal</div>
+    <div className="p-4 text-center font-bold">CreateMeal</div>
   )
 }
 export default CreateMeal;

@@ -8,6 +8,6 @@ export default function useFetch(url) {
             setData(result.data);
         }
         fetchData();
-    }, [])
+    },[])
     return {data};
 }

@@ -6,8 +6,8 @@ export const DashboardLayouts = () => {
   return (
     <div className='flex w-full h-screen'>
       <Sidebar />
-      <div className='flex flex-col flex-1 gap-4 w-full h-scree'>
-        <Topbar />
+      <div className='flex flex-col flex-1  w-full h-scree'>
+        <Topbar className="h-13"/>
         <main>
           <Outlet />
         </main>
